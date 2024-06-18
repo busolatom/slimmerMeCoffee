@@ -94,8 +94,8 @@
       text-align: left;
       color: white;
       position: absolute;
-      top: 40%;
-      right: 35%;
+      top: 35%;
+      right: 40%;
       max-width: 800px;
       /* transform: translate(-50%, -50%);
       animation: fadeInDown 4s ease forwards 2; */
@@ -151,9 +151,103 @@
         width: 100vw;
         height: 100vh;
         background-color: #F8F4F4;
-        display: flex;
+        /* display: flex; */
+        padding: 120px;
       }
       #grid-container {
             display: grid;
             grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            /* width: 80%; */
+            /* padding: 20px; */
       }
+      #sub-header {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        color: #2D0000;
+      }
+      #gridform-main {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+      }
+      .grid-item {
+        /* display: grid; */
+        /* gap: 20px; */
+        text-align: center;
+        /* max-width: 500px; */
+        padding: 20px;
+        background-color: white;
+      }
+      .grid-item img {
+
+      }
+      #form-container {
+        background-color: #B40000;
+        border-top-right-radius: 130px;
+      }
+    #choose-us {
+      text-align: center;
+      padding: 50px;
+      /* width: 700px; */
+      /* align-items: center; */
+    }
+   #choose-us p {
+      text-align: center;
+    }
+    #slider-image img{
+      /* max-width: 500px; */
+      width: 100vw;
+      height: 65vh;
+      background-size: cover;
+    }
+    .sub-header {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+    }
+    #blogcards {
+      padding: 200px;
+      display: flex;
+      justify-content: space-between;
+      gap: 40px; /* Adjust this value for spacing between cards */
+    }
+    .cardimg {
+      width: 100%;
+      height: auto;
+      border-top-left-radius: 100px;
+    }
+   #supporter {
+    background: linear-gradient(#ffffff 50%, #2d0000 50%);
+    position: relative;
+   }
+   #support-main {
+    width: 85%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    background-color: #EFE2E2;
+    position: absolute;
+    top: 50%; /* Move the div 50% from the top of its parent */
+    left: 50%; /* Move the div 50% from the left of its parent */
+    transform: translate(-50%, -50%);
+   }
+  #footer {
+    background-color: #2D0000;
+    height: 80vh;
+    padding: 150px;
+    text-align: center;
+  }
+  #footer img {
+    max-width: 200px;
+    height: auto;
+  }
+  #footer p {
+    color: white;
+  }
+  #footer nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+  }
