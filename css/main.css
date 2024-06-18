@@ -122,3 +122,28 @@
         width: 200px;
         cursor: pointer;
     }
+    #body-review {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding: 150px;
+        background-color: #FFFFFF;
+        width: 100vw;
+        column-gap: 100px;
+      }
+      #welcome img {
+        width: 250px;
+      }
+      #body-text {
+        max-width: 500px;
+      }
+      #body-review img {
+        width: 400px;
+        height: 500px;
+        object-fit: cover;
+        border-top-left-radius: 130px;
+      }
+      #body-text img {
+        width: 100px;
+        height: auto;
+      }
