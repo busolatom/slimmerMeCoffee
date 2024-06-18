@@ -56,12 +56,15 @@
     font-weight: 700;
     height: 51px;
     letter-spacing: 2px;
-    border: 1px;
-    border-radius: 2px;
-    border-color: #B60037;
+    border: 1px solid  #B60037;
+    background-color: white;
     color: #B60037;
     width: 200px;
     cursor: pointer;
+  }
+  #order-button:hover {
+    background-color: #B60037;
+  color: #ffffff;
   }
   #nav-links span a {
     margin-right: 20px;
