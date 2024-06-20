@@ -348,7 +348,7 @@
     height: 100%;
     object-fit: cover;
   }
-  #body-review img {
+  #container {
     position: relative;
   }
   #experience {
@@ -358,8 +358,8 @@
     text-align: center;
     color: white;
     position: absolute;
-    /* top: -10%; */
-    /* left: -10%; */
+    bottom: -10%;
+    right: -10%;
   }
   #p-one {
     color: rgb(45, 0, 0);
