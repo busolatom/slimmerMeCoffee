@@ -451,3 +451,27 @@ padding-right: 19px;
 padding-top: 0px;
 text-align: center;
   }
+  #formp-one {
+    color: rgb(255, 255, 255);
+display: block;
+font-family: Baskervville, serif;
+font-size: 29px;
+font-style: normal;
+font-weight: 600;
+height: 40.5938px;
+line-height: 40.6px;
+text-align: center;
+  }
+  #formp-two {
+    color: rgb(255, 255, 255);
+display: block;
+font-family: Roboto, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+height: 50.375px;
+line-height: 25.2px;
+margin-block-end: 15px;
+margin-block-start: 0px;
+margin-bottom: 15px;
+  }
