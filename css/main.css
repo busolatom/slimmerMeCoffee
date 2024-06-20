@@ -361,3 +361,93 @@
     /* top: -10%; */
     /* left: -10%; */
   }
+  #p-one {
+    color: rgb(45, 0, 0);
+display: block;
+font-family: Baskervville, serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+height: 67.1875px;
+line-height: 53.6px;
+margin: 0px 0px 30px;
+  }
+  #p-two {
+    color: rgb(45, 0, 0);
+font-family: Baskervville, serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+height: 79.7812px;
+line-height: 28.6px;
+  }
+  #p-three {
+    color: rgb(107, 90, 90);
+font-family: Roboto, sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+height: 161.953px;
+line-height: 32.4px;
+margin: 0px 0px 40px;
+  }
+  #p-four {
+    color: rgb(45, 0, 0);
+display: inline-block;
+font-family: Roboto, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+height: 44.3906px;
+line-height: 30px;
+/* margin-bottom: 2px; */
+  }
+  #ceo {
+    color: rgb(107, 90, 90);
+display: inline-block;
+font-family: Roboto, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+height: 22.3906px;
+line-height: 22.4px;
+margin-block-end: 15px;
+margin-block-start: 0px;
+margin-bottom: 15px;
+  }
+  #body-text img {
+    width: 121px;
+  }
+  #revp-one {
+    color: rgb(255, 255, 255);
+display: block;
+font-family: Roboto, sans-serif;
+font-size: 76px;
+font-style: normal;
+font-weight: 900;
+/* height: 76px; */
+line-height: 76px;
+margin-bottom: 5px;
+text-align: center;
+  }
+  #revp-two {
+    color: rgb(255, 255, 255);
+display: block;
+font-family: Roboto, sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+height: 50.375px;
+line-height: 25.2px;
+margin-block-end: 15px;
+margin-block-start: 0px;
+margin-bottom: 15px;
+margin-inline-end: 0px;
+margin-inline-start: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 19px;
+padding-right: 19px;
+padding-top: 0px;
+text-align: center;
+  }
